@@ -2,8 +2,65 @@ html {
   box-sizing: border-box;
 }
 
+.grid {
+  font-family: sans-serif, "Arial, Helvetica";
+  border-collapse: collapse;
+  width: 100%;
+  border-bottom: 2px solid rgb(10, 10, 10);
+}
+
+.grid td {
+  border: 1px solid #dddddd;
+  padding: 8px;
+}
+
+.grid tr:hover {
+  background-color: #dddddd;
+}
+
+.grid .thead {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  border-bottom: 2px solid rgb(10, 10, 10);
+}
+
+.pagin {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #ffffff;
+}
+
+.pagin,
+.searchArea {
+  position: relative;
+  left: 80%;
+}
+
+.pagin button {
+  display: inline;
+  color: #000000;
+  padding: 8px 16px;
+}
+
+
+.disabled {
+  border: none;
+  background-color: rgb(255, 255, 255);
+  padding: 8px 16px;
+}
+
+.page {
+  background-color: rgb(190, 130, 130);
+  padding: 8px 16px;
+}
+
+/*
 *,
 *::after,
 *::before {
   box-sizing: inherit;
 }
+*/

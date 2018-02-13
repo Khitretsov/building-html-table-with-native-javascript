@@ -58,7 +58,8 @@
     "prettier": "^1.10.2",
     "prettier-stylelint": "^0.4.2",
     "rimraf": "^2.6.2",
-    "stylelint": "^8.4.0"
+    "stylelint": "^8.4.0",
+    "webpack": "^3.10.0"
   },
   "dependencies": {}
 }
